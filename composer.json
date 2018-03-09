@@ -1,0 +1,19 @@
+{
+    "name": "frank/doctrine-playground",
+    "description": "Composer playground",
+    "require": {
+        "doctrine/orm": "^2.6",
+        "symfony/yaml": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Frank Gonzalez Duverger",
+            "email": "fgonzalez@blim.com"
+        }
+    ]
+}
